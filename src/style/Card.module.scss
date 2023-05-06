@@ -1,0 +1,80 @@
+.container {
+   width: 350px;
+   max-height: 407px;
+   background: #FFFFFF;
+   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+   border-radius: 30px;
+   padding-bottom: 4px;
+   .cardImg {
+    width: 220px;
+    height: 240px;
+    padding: 15px 65px 55px 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+}
+.box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0px 21px 25px 22px;
+}
+.title {
+    font-weight: 600;
+font-size: 17px;
+line-height: 21px;
+
+
+
+color: #1C1C27;
+}
+.price {
+    font-weight: 600;
+font-size: 17px;
+line-height: 21px;
+
+
+
+color: #FFA542;
+}
+.rate {
+    font-weight: 600;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #838383;
+display: flex;
+}
+.btnBuy {
+    font-weight: 600;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #000000;
+background: #FFFFFF;
+border: none;
+cursor: pointer;
+}
+.oldPrice {
+    position: absolute;
+width: 50px;
+height: 15.97px;
+left: 280px;
+top: 26px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+/* identical to box height */
+
+text-decoration-line: line-through;
+color: #FFCE7F;
+}

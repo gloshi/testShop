@@ -1,0 +1,84 @@
+.container {
+    margin-top: 20px;
+    margin-left: 182px;
+    margin-right: 148px;
+    height: 149px;
+
+    background: #FFFFFF;
+box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+border-radius: 30px 30px 0px 0px;
+display: flex;
+li {
+    list-style-type: none
+}
+ul {
+    margin: 0;
+    padding: 0; 
+   }
+}
+.title {
+    padding: 29px 233px 90px 29px;
+    font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #101010;
+}
+.categories {
+    padding-top: 34px;
+    
+    font-weight: 400;
+font-size: 17px;
+line-height: 21px;
+/* identical to box height */
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 11px;
+    }
+
+color: #000000;
+}
+.rules {
+    padding-left: 174px;
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    span {
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 21px;
+        color: #000000  
+    }
+}
+.languageParams {
+    display: flex;
+    gap: 17px;
+    span {
+        cursor: pointer;
+    }
+    .languageActive {
+        font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+
+color: #FFA542;
+    }
+    .language {
+        font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+
+color: #101010;
+    }
+}
+.icons {
+   padding-left: 183px;
+   padding-top: 35px;
+   display: flex;
+   gap: 18px;
+   .vk {
+    padding-top: 5px;
+   }
+}

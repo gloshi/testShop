@@ -1,0 +1,57 @@
+.container {
+    padding-left: 165px;
+    padding-right: 140px;
+    display: flex;
+    width: 1135px;
+    justify-content: space-between;
+}
+.title {
+    font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+
+color: #101010;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.icons {
+    position: relative;
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    padding-right: 32px;
+    img{
+        cursor: pointer;
+
+    }
+}
+.cart_count {
+    position: absolute;
+    background: #FFA542;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    text-align: center;
+    top: 12px;
+    left: 14px;
+    font-size: 15px;
+line-height: 18px;
+text-align: center;
+
+color: #FFFFFF;
+}
+.like_count {
+    position: absolute;
+    background: #FFA542;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    text-align: center;
+    left: 84px;
+    top: 12px;
+    font-size: 15px;
+line-height: 18px;
+text-align: center;
+
+color: #FFFFFF;
+}
